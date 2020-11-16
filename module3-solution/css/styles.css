@@ -1,0 +1,49 @@
+#header-nav{
+	background-color: grey;
+	border-radius: 0;
+	border: 0;
+	border: 2px solid black;
+	margin-bottom: 0;
+	height: 80px;
+	position: relative;
+}
+.container .navbar-brand{
+	padding: 0;
+}
+.navbar-brand a{
+	color: black;
+	padding: 0;
+	margin-top: -15px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#main-heading{
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.navbar-toggle{
+	position: absolute;
+	right: 5px;
+	bottom: 9px;
+	border: 1px solid black;
+}
+.jumbotron{
+	background-color: grey;
+}
+#jumbotron-section>h2{
+	font-weight: bold;
+	text-align: center;	
+}
+#jumbotron-section{
+	margin-top: -50Px;
+}
+@media(max-width: 576px){
+	#jumbotron-section{
+	margin-top: -10px;
+	text-align: center;
+	}
+}
+
